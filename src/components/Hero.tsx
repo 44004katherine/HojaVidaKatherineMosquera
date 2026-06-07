@@ -19,7 +19,7 @@ export function Hero({ onDownloadPdf }: HeroProps) {
             {/* Frame Wrapper */}
             <div className="relative w-[280px] h-[280px] md:w-[340px] md:h-[340px] rounded-2xl overflow-hidden bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md transform transition-all duration-500 group-hover:scale-[1.01]">
               <img 
-                src={PERSONAL_INFO.photoUrl} 
+                src={PERSONAL_INFO.photoUrl.startsWith('http') ? PERSONAL_INFO.photoUrl : `${(import.meta as any).env.BASE_URL}${PERSONAL_INFO.photoUrl.startsWith('/') ? PERSONAL_INFO.photoUrl.substring(1) : PERSONAL_INFO.photoUrl}`} 
                 alt={PERSONAL_INFO.name} 
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
