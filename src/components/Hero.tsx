@@ -62,7 +62,7 @@ export function Hero({ onDownloadPdf }: HeroProps) {
 
           {/* Direct Summary snippet for fast scanning */}
           <p className="mt-5 text-slate-600 dark:text-slate-400 font-sans text-sm md:text-base leading-relaxed">
-            Especialista en desarrollo de arquitecturas robustas y escalables para automatización de pruebas web, móviles y APIs. Minimizo drásticamente las fugas de errores gracias a estrategias avanzadas de Integración Continua (CI/CD).
+            Analista de pruebas de software con experiencia en control de calidad (QA) para aplicaciones web y de escritorio, abarcando todo el ciclo de pruebas: análisis de requisitos, diseño de casos de prueba, ejecución manual y automatizada, y seguimiento de defectos. Conocimientos en metodologías ágiles (Scrum/Kanban) y en la implementación de scripts de automatización para optimizar procesos de regresión, asegurando la estabilidad y calidad de los productos entregados.
           </p>
 
           {/* Compact Contact Badges */}

@@ -8,13 +8,13 @@ export function Projects() {
       <ScrollReveal>
         <div className="text-center max-w-2xl mx-auto mb-10">
           <span className="font-mono text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-widest leading-none">
-            REPOSITORIOS & CÓDIGO
+            PROYECTOS DESTACADOS
           </span>
           <h3 className="mt-2.5 font-sans font-bold text-2xl md:text-3xl text-slate-900 dark:text-white tracking-tight leading-normal">
-            Proyectos Destacados
+            Resultados de mis pruebas de software y automatización
           </h3>
           <p className="mt-2 text-slate-500 dark:text-slate-400 font-sans text-sm">
-            Diseño e implementación de plantillas robustas y suites completas de pruebas automatizadas listas para su escalación.
+            Resumen de mis proyectos de pruebas de software y automatización.
           </p>
         </div>
 

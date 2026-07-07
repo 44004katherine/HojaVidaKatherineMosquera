@@ -25,7 +25,7 @@ export interface Project {
   techStack: string[];
   githubUrl?: string;
   liveUrl?: string;
-  category: "automation" | "api" | "performance";
+  category: "automation-testing" | "api" |  "manual-testing" |"performance";
 }
 
 export interface SkillCategory {
